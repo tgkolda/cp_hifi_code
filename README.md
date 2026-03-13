@@ -5,16 +5,19 @@ Here, we assume that we have some observed data corresponding to underlying cont
 The CP factors corresponding to finite-dimensional modes are represented as vectors and those corresponding to infinfite-dimensional modes are represented as functions in an RKHS space. 
 The code is written in MATLAB and relies on the [Tensor Toolbox for MATLAB](https://gitlab.com/tensors/tensor_toolbox) .
 
-This work is based on a series of papers. The CP-HIFI framework comes from [1,2]. The implementations are detailed in [3].
+Please cite [1] if you use this code in your work:
 
-* [1] R. Tang, T. Kolda, A. R. Zhang. Tensor Decomposition with Unaligned Observations. SIAM Journal on Matrix Analysis and Applications, 2026. https://doi.org/10.1137/24M1692836
-* [2] B. W. Larsen, T. G. Kolda, A. R. Zhang, A. H. Williams. Tensor Decomposition Meets RKHS: Efficient Algorithms for Smooth and Misaligned Data. arXiv:2408.05677, 2024. http://arxiv.org/abs/2408.05677
-* [3] Johannes Brust and Tamara G. Kolda, Fast and Accurate CP-HIFI Tensor Decompositions, in preparation, 2026.
+* [1] Johannes Brust and Tamara G. Kolda, Fast and Accurate CP-HIFI Tensor Decompositions, 2026.
+
+The CP-HIFI framework comes from [2,3]. 
+
+* [2] R. Tang, T. Kolda, A. R. Zhang. Tensor Decomposition with Unaligned Observations. SIAM Journal on Matrix Analysis and Applications, 2026. https://doi.org/10.1137/24M1692836
+* [3] B. W. Larsen, T. G. Kolda, A. R. Zhang, A. H. Williams. Tensor Decomposition Meets RKHS: Efficient Algorithms for Smooth and Misaligned Data. arXiv:2408.05677, 2024. http://arxiv.org/abs/2408.05677
 
 ## Setup
 
 * Download the [Tensor Toolbox for MATLAB](https://gitlab.com/tensors/tensor_toolbox) and add its directory to your MATLAB path.
-* Clone this repository and add it to your MATLAB path.
+* Clone [this repository](https://github.com/tgkolda/cp_hifi_code) and add it to your MATLAB path.
 
 ## Special Classes
 
