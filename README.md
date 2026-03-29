@@ -7,7 +7,7 @@ The code is written in MATLAB and relies on the [Tensor Toolbox for MATLAB](http
 
 Please cite [1] if you use this code in your work:
 
-* [1] Johannes Brust and Tamara G. Kolda, Fast and Accurate CP-HIFI Tensor Decompositions, 2026.
+* [1] Johannes Brust and Tamara G. Kolda, Fast and Accurate CP-HIFI Tensor Decompositions Exploiting Kronecker Structure, 2026. https://arxiv.org/abs/2603.25691
 
 The CP-HIFI framework comes from [2,3]. 
 
